@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "cae23363-8fb5-45cb-aea8-5fef239e50ba",
+		"name": "Deferred-demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "deferred task",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/users/0911dca2-e9a5-41b7-82e1-8665ff6a85a8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"0911dca2-e9a5-41b7-82e1-8665ff6a85a8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
